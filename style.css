@@ -1,0 +1,78 @@
+
+.navUl{
+    display: flex;
+    justify-content: space-evenly;
+
+
+.navLi{
+    float: left;
+    padding:10px;
+    margin:0px;
+    margin-bottom: 10px;
+    list-style-type:none;
+    background-color: rgb(221, 219, 227);
+    font-size:medium;
+    border: 2px solid grey;
+    text-decoration: none;
+}
+
+.navLi :hover{
+color: rgb(219, 220, 217);
+background-color:darkblue;
+text-decoration: none;
+}
+
+}
+
+.bookContainer{
+    display: flex;
+    flex-wrap: wrap;
+    float:left;
+    background-color: rgb(141, 146, 141);
+    padding:55px;
+}
+
+.bookItem{
+    width:250px;
+    height: 300px;
+    border:2px solid blanchedalmond;
+    padding:10px;
+    margin:5px;
+}
+
+.navmenu{
+    text-align: center;
+    color:aliceblue;
+    background-color:black;
+
+}
+
+.cartTable,.cartTableBody,.cartTableRow,.cartTableData{
+    border: 2px solid black;
+    text-align: center;
+    background-color: rgb(234, 237, 237);
+    color:rgb(13, 13, 13);
+    font-weight: bold;
+    border-collapse: collapse;
+
+}
+.footer{
+    background-color: rgb(10, 10, 10);
+    text-align: center;
+    color:aliceblue;
+    padding: 20px;
+
+}
+
+.homeDiv{
+    display: flex;
+    justify-content: space-evenly;
+    background-color:rgb(189, 186, 186);
+}
+.tableAlign{
+    display: flex;
+    justify-content: space-evenly;
+    background-color:rgb(189, 186, 186);
+    padding: 70px;
+
+}
